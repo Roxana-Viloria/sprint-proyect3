@@ -1,0 +1,14 @@
+.reject{
+    width: 100%;
+    background-color:  rgb(70, 39, 206);
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.doubtImage{
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+
+}

@@ -1,0 +1,38 @@
+.headerLight{
+   display:flex;
+   justify-content: space-around;
+   padding-top: 20px;
+}
+
+.empty{
+    background-color: rgb(70, 39, 206);
+    width: 100%;
+    height: 5px;
+}
+
+
+.btn{
+    border-radius:30px;
+    border: solid 1px;
+    font-size:15px;
+    font-weight: bold;
+    color:rgb(70, 39, 206);
+    padding: 0 40px;
+    margin: 10px;
+}
+
+.btn-light{
+    background-color: white;
+    
+}
+
+.btn-light:hover {
+    background-color: turquoise;
+    border:none;
+    cursor:pointer;
+}
+
+.btn-dark {
+    background-color: black;
+    color:white;
+}

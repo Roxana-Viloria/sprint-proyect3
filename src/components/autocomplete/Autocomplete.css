@@ -1,0 +1,38 @@
+.suggestions{
+    border-radius: 20px;
+    border: solid 1px rgb(70, 39, 206);
+    overflow: hidden;
+    width: 530px;
+    text-align: start;
+    margin: auto;
+    margin-top: 5px;
+    top: 415px;
+    color: grey;
+    background-color: white;
+}
+
+.searchLight{
+    margin-left: 10px;
+    padding-right: 10px; 
+    display: flex;
+}
+
+.line{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    border: 0.5px solid rgb(219, 217, 224)
+}   
+
+.line:hover{
+    background-color: rgb(219, 215, 230);
+}
+
+.charge{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    margin: 0px 180px 0px;
+    
+}
