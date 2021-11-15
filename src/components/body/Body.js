@@ -54,7 +54,7 @@ function Body() {
           </div>) 
           }   
       </div>
-      <div>{gifs !== [] && press === false && searchValue === "" &&  <NotFound/> }</div>
+      <div>{gifs.length === 0 && press === false && searchValue === "" &&  <NotFound/> }</div>
     </div>
   );
 }
