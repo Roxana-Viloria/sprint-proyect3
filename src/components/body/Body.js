@@ -34,7 +34,7 @@ function Body() {
           setGifs([])
       }
   },[searchValue, press])
-  console.log (gifs)
+
   return (
     <div>
         <h2 className= {` yourSearch ${ isDarkValue ? 'yourSearchDark' : 'yourSearchLight'}` }>
