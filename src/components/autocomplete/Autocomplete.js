@@ -25,7 +25,7 @@ function Autocomplete() {
         <div>
             {newData.length > 0 ? 
             <div className="suggestions">
-            {press && searchValue !== "" ?  <img  className="charge" src={loading} alt="loading"></img>: ""}     
+            {press && searchValue !== "" ?  <img  className="charge" src={loading} alt="cargando"></img>: ""}     
             {Suggestions ({newData, setSearch, setPress})}
             </div> : []}
         </div>

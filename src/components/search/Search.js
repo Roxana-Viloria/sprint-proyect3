@@ -34,7 +34,7 @@ function Search() {
           Inspirate y busca los mejores 
           <span className="gif" > GIFS!</span>
           </h1>
-        <img src={boys} alt="imagen de tres personas"></img>
+        <img className="boys" src={boys} alt="imagen de tres personas"></img>
       </div>
       <div>
           <div> 

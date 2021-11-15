@@ -113,3 +113,22 @@ font-weight: 900;
     height: 15px;
 }
 
+@media (min-width: 280px) and (max-width:768px) {
+
+    .input{
+        width: 250px;
+    }
+
+    .btn-glasses{
+        width: 70px;
+    }
+
+    .boys{
+        width: 320px;
+        height: 320px;
+    }
+
+    .title{
+        font-size:small;
+    }
+}
